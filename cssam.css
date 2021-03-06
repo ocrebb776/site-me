@@ -1,0 +1,164 @@
+body {
+  font-family: Arial;
+  margin: 0;
+}
+
+.header {
+  padding: 60px;
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+  font-size: 30px;
+}
+
+body {
+  background-color:whitesmoke;
+  font-family: verdana;
+  margin; 0px;
+}
+
+.top {
+  color: white;
+  text-align: left;
+  background: blue;
+  padding: 60px;
+  font-family: verdana;
+  margin-left 0px;
+  
+}
+
+body1 {
+  font-family: verdana;
+  font-size: 20px;
+  color: black;
+}
+tilly {
+  width: 320px;
+  padding: 10px;
+  border: 5px solid gray;
+  margin: 0;
+}
+
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+
+.button1 {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.button2:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+  .buttonr{
+    text-align: right;
+}
+.content {padding:20px;}
+}
+.navbar a.active {
+  background-color:white;
+  color: black;
+}
+.navbar a:hover {
+  background: #f1f1f1;
+  color: black;
+}
+  .buttonyay {
+    background-color:white;
+    color:black;
+    border: 2px solid blue;
+    
+  }
+.buttonyay:hover{
+    background-color:blue
+    color:white;
+  }
+.navbar {
+  background-color: #1B4F72;
+  position: fixed;
+   top: 0;
+  width: 100%;
+  color:white
+}
+.main {
+  padding: 16px;
+  margin-top: 30px;
+}
+.navbar a:hover {
+  background: #f1f1f1;
+  color: black;
+}
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.footerr{
+  width: 100%;
+  height: 8%;
+  position:fixed;
+  overflow:hidden;
+  bottom: 0px;
+  font-size: 30px;
+  color: white;
+  border-top: 1px solid #E6E6E6;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 10px;
+  background-color: black;
+}
+* {box-sizing:border-box}
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.sidenav {
+  height: 71.5%;
+  width: 20%;
+  position:fixed;
+  z-index: 1;
+  bottom: 8%;
+  left: 0;
+  top: 272px;
+  background-color: grey;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.main {
+  margin-left: 160px; /* Same as the width of the sidenav */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 1500px;}
+  .sidenav a {font-size: 18px;}
+}
