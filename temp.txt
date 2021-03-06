@@ -1,4 +1,4 @@
-body {
+bodyn {
   background-color:whitesmoke;
   font-family: verdana;
 }
