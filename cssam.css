@@ -2,7 +2,7 @@ body {
   font-family: Arial;
   margin: 0;
 }
-
+.
 .header {
   padding: 60px;
   text-align: center;
@@ -156,6 +156,9 @@ body {
   margin-left: 160px; 
   font-size: 28px; /
   padding: 0px 10px;
+}
+.left{
+text-align:right;
 }
 
 @media screen and (max-height: 450px) {
