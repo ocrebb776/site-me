@@ -39,7 +39,10 @@ tilly {
   border: 5px solid gray;
   margin: 0;
 }
-
+.hello {
+	left:5px;
+	right:5px;
+}
 .button {
   background-color: #4CAF50; /* Green */
   border: none;
@@ -196,11 +199,15 @@ text-align:right;
   float: left;
   width: 50%;
   padding: 10px;
-  height: 849px; /* Should be removed. Only for demonstration */
-}
+  height: 849px;
+  }
+  /* Should be removed. Only for demonstratio
 /* Clear floats after the columns */
 .row:after {
   content: "";
   display: table;
   clear: both;
+}
+.black {
+	color:black;
 }
