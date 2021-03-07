@@ -20,7 +20,7 @@ body {
 .top {
   color: white;
   text-align: left;
-  background: blue;
+  background: #3f78d4;
   padding: 60px;
   font-family: verdana;
   margin-left 0px;
@@ -156,6 +156,9 @@ body {
   margin-left: 160px; 
   font-size: 28px; /
   padding: 0px 10px;
+}
+.left{
+text-align:right;
 }
 
 @media screen and (max-height: 450px) {
