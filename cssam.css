@@ -177,7 +177,7 @@ text-align:right;
   float: left;
   width: 50%;
   padding: 10px;
-  height: 500px; /* Should be removed. Only for demonstration */
+  height: 1000px; /* Should be removed. Only for demonstration */
 }
 .colum {
   float: left;
