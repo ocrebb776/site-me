@@ -27,6 +27,7 @@ body {
   
 }
 
+
 body1 {
   font-family: verdana;
   font-size: 20px;
@@ -190,6 +191,12 @@ text-align:right;
   width: 50%;
   padding: 10px;
   height: 1000px; /* Should be removed. Only for demonstration */
+}
+  .columne {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 849px; /* Should be removed. Only for demonstration */
 }
 /* Clear floats after the columns */
 .row:after {
