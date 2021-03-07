@@ -195,3 +195,6 @@ font-size: 30px;
   width: 100%;
   height: 849px; /* Should be removed. Only for demonstration */
 }
+.black {
+	color:black;
+}
